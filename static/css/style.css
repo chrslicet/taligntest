@@ -87,6 +87,7 @@ body::before {
     font-size: 1em;
     font-family: 'Silkscreen', cursive; /* Apply the Silkscreen font to input fields */
     transition: all 0.3s ease;
+    box-sizing: border-box;
 }
 
 .home-inputs input[type="text"]::placeholder {
